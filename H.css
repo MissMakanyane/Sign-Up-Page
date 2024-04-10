@@ -1,0 +1,31 @@
+
+body {
+    background-image: url("/static/South.jpeg");
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+#language-list {
+    margin-top: 200px;
+}
+
+#language-list li {
+    margin-bottom: 100px;
+}
+
+#language-list li span {
+    margin-right: 10px;
+}
+
+#language-list li button {
+    margin-left: 100px;
+}
+
