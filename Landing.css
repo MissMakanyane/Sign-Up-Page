@@ -1,100 +1,144 @@
 body {
-    background-image: url("./wedwall.jpeg");
-    font-family: Arial, sans-serif;
-    text-align: center; 
+    background-image: url("./wedwall.jpeg");   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #f6ccf2;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-h2 {
-    text-align: center;
-}
-input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #f0b0de;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-button {
-    background-color: #f7c5f7;
-    color: rgb(19, 17, 17);
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    border-radius: 4px;
-}
-
-h1 {
-    margin-top: 100px;
-}
-
-p {
-    margin-top: 150px;
-}
-
-.button-container {
-    margin-top: 100px;
-}
-
-.button-container button {
-    margin: 10px;
-    padding: 10px 20px;
+ 
+ 
+  .container h1{
     font-size: 16px;
-}
+    margin-top: 30px;
+  }
+  
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+   /* img {
+    max-width: 60%;
+    max-height: 200px;
+    margin: auto;
+    display: block;
+} */
 
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
+  .thumbnail {
+    width: 2500px;
+    height: 2500px;
+    background-image: url('thumbnail.jpg');
+    background-size: cover;
+  }
 
-.button-container {
+  /* Style the form container */
+  .form-container {
+    text-align: center;
     margin-top: 20px;
+    border-radius: 60px;
+  }
+  
+  .add button {
+  border-radius: 60px;
 }
+  /* Style the input field and buttons in the form */
+  #Wedding-input {
+    padding: px;
+    width: 100px;
+  }
+  
+  #Wedding-form button {
+    margin-left: 5px;
+  }
+  
+  
+  .button-container {
+    text-align: center; /* Optional: Centers the buttons horizontally */
+margin-top: -100px;
+margin-left: 100px;}
+
 
 .button-container button {
-    margin-right: 10px;
+    display: inline-block;
+    margin-right: 50px; /* Optional: Adds space between buttons */
+    background-color: #f8f6f2;
+    width: 120px;
+    height: 30px;
+    border-radius: 60px; 
+    margin-top: 150px;
+    margin-bottom: 20px;
 }
 
 
-
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.button-container {
-    margin-top: 20px;
+nav ul li a {
+  color: #131111;
+  text-decoration: none;
 }
 
-.button-container button {
-    margin-right: 10px;
+header {
+  background-color: #fbd784;
+  color: #121010;
+  padding: 20px;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #131212;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f0ca58;
+  color: #141313;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #000;
+  color: #fff;
+} */
+

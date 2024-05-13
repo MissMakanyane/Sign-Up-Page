@@ -24,14 +24,20 @@ body {
 
     
 }
+
+.container{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
 .Card {
     position: absolute;
     height:500px;
-    width: 270px;
+    width: 400px;
     border-radius: 15px;
     background-color: rgb(251, 230, 126);
     margin-top: -700px;
-    margin-left: 350px;
+    margin-left: 410px;
     margin-right: auto;
     border: 10px;
     opacity: 0.5;
